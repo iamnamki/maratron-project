@@ -1,0 +1,248 @@
+/* 기타 CSS */
+.aa {
+    font-size : 50px;  
+}
+
+.hy {
+    width : 30%!important;
+}
+
+
+/* CSS for SOUND WAVE */
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 39px;
+    line-height: 1.33;
+    padding-left: 2px;
+    padding-bottom: 5px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 2px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-orange {
+    background: #232323; 
+    /* background: #fcbc02; */
+    color: #fff;
+}
+
+.btn-orange:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.ptext {
+    padding-left: 20px;
+}
+
+.ptext p {
+    font-size: 19px;
+    color: grey;
+}
+
+.heading {
+    border: 1px solid #dee2e6;
+    padding-top: 12px;
+    margin-bottom: 0px;
+    color: gray;  
+    background-color: white;
+}
+
+.btn-wrapper {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#audio-time, #audio-time2 {
+    color: gray;
+    padding-top: 30px;
+    padding-left: 0px; 
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#wave-spectrogram{
+    margin: 10px auto;
+    position: relative;
+}
+
+#wave-spectrogram canvas{
+    left: 0;
+}
+  
+#specLabels{
+      position: absolute!important;
+}
+
+.wave {
+    width: 87%;
+}
+
+
+/* textToSppech loading section */
+.loading-group{
+    display: inline-block;
+    position:absolute;
+    left:50%;
+    bottom:50%;
+    z-index: 20000;
+    color : #d06459;
+}
+
+.loading-group #loading_text {
+    display: block;
+}
+
+#loading_bg {
+    /* Set rules to fill background */
+    min-height: 100%; 
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%; 
+    height: auto; 
+
+    /* Set up positioning */ 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+
+    /* Set up others */    
+    opacity : 0.95;
+    z-index: 10000;
+}
+
+#audio {
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+#audio:focus {
+    outline: -webkit-focus-ring-color!important;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
+/* alert css*/
+.swal2-styled.swal2-confirm {
+    background-color: #232323!important; 
+    border-left-color: #232323!important;
+    border-right-color: #232323!important;
+    border-color: #232323!important;
+}
+
+.swal2-styled:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #fff!important;
+}
+
+.swal2-styled:hover {
+    background-color: #d06459!important; 
+    border-left-color: #d06459!important;
+    border-right-color: #d06459!important;
+    border-color: #d06459!important;
+}
+
+.swal2-icon.swal2-warning {
+    border-color: #d06459!important;
+    color: #C1392B!important;
+}
+
+.swal2-popup {
+    opacity: 0.8;
+}
+
+
+/* modal css */
+h3.engtext {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);     
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lora', serif;
+    width: 200px;
+}
+
+h3.kortext {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);     
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Gamja Flower', cursive;
+    width: 200px;
+}
+
+.content-text  {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+ }
+ 
+ .poemtype {
+    text-align: center!important;
+ }
+
+/* audio {
+    margin-bottom: 2rem;
+} */
+
+.content-author {
+    text-align: right;
+}
+
+.h1_eng {
+    font-size: 2.3rem;
+}
+
+.fa-times:hover {
+    color: #d06459;
+}
+
+.audiostore-modal{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%; /* half of width */
+    height: 800px;
+    top: 50%;
+    margin-top: -400px; /* half of height */
+    /* overflow: auto; */
+ }
+
+.audiostore-modal-dialog {
+    border-radius: 25px;
+}
+
+.audiostore-modal > .content-bottom {
+    width : 631.91px;
+    /* display: inline-block; */
+    position: absolute;
+    bottom: 10%;
+    /* margin-bottom: 2rem; */
+ }
+ 
+ #content-audio {
+    margin-bottom: 1rem;
+ }
